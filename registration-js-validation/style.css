@@ -1,0 +1,62 @@
+body{
+    background: #f9ecec;
+}
+
+#form{
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: #f0d9da;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+#form h1{
+    color: black;
+    text-align: center;
+}
+
+#form button{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #f0d9da;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.input-control{
+    display: flex;
+    flex-direction: column;
+     gap: 10px;
+}
+.input-control input{
+    border: 2px solid #eaf6f6;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    
+}
+
+.input-control input:focus{
+    outline: 0;
+
+}
+
+.input-control.success input{
+    border-color: green;
+}
+.input-control.error input{
+    border-color: red;
+}
+.input-control.error{
+    color: red;
+    font-size: 12px;
+    height: 12vh;
+}
+
+.success-msg{
+    color: blue;
+    
+}
+
